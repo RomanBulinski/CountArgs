@@ -1,4 +1,17 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TestMain {
+
+    @Test
+    public void test01(){
+        Main main = new Main();
+        assertEquals(3, main.countArgs(1,2,3));
+    }
+
+    
+
 
 
 //    public class SolutionTest {
